@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pry'
 gem 'sqlite3', group: [:development, :test]
 
-gem 'pg',  '0.17.1' group: :production
+gem 'pg',  '0.17.1' ,group: :production
 gem 'rails_12factor', group: :production
 
 # Use ActiveModel has_secure_password
