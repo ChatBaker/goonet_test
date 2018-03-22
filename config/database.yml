@@ -9,28 +9,54 @@
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 #
+
+
+# default: &default
+#   adapter: postgres
+#   encoding: utf8
+#   pool: 5
+#   username: root
+#   password:
+#   socket: /tmp/mysql.sock
+#
+# development:
+#   <<: *default
+#   database: goonet_test_development
+#
+# # Warning: The database defined as "test" will be erased and
+# # re-generated from your development database when you run "rake".
+# # Do not set this db to the same as development or production.
+# test:
+#   <<: *default
+#   database: goonet_test_test
+#
+#
+# production:
+#   <<: *default
+#   database: goonet_test_production
+#   username: goonet_test
+#   password: <%= ENV['GOONET_TEST_DATABASE_PASSWORD'] %>
+
+
 default: &default
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  template: template0
 
 development:
   <<: *default
   database: goonet_test_development
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
+
 test:
   <<: *default
   database: goonet_test_test
-
 
 production:
   <<: *default
   database: goonet_test_production
   username: goonet_test
-  password: <%= ENV['GOONET_TEST_DATABASE_PASSWORD'] %>
+  password: <%= ENV['ACHIEVE_DATABASE_PASSWORD'] %>
