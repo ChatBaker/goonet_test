@@ -59,4 +59,4 @@ production:
   <<: *default
   database: goonet_test_production
   username: goonet_test
-  password: <%= ENV['ACHIEVE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['GOONET_TEST_DATABASE_PASSWORD'] %>
