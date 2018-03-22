@@ -1,0 +1,66 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Shops</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>店舗ユニークKey</th>
+      <th>店舗名</th>
+      <th>郵便番号</th>
+      <th>住所</th>
+      <th>住所2</th>
+      <th>電話番号</th>
+      <th>電話番号_表示用</th>
+      <th>FAX番号</th>
+      <th>店舗インフォメーションコメント</th>
+      <th>メイン画像</th>
+      <th>サブ画像1</th>
+      <th>サブ画像2</th>
+      <th>サブ画像3</th>
+      <th>サブ画像4</th>
+      <th>サブ画像キャプション1</th>
+      <th>サブ画像キャプション2</th>
+      <th>サブ画像キャプション3</th>
+      <th>サブ画像キャプション4</th>
+      <th>営業時間</th>
+      <th>定休日</th>
+      <th>経度</th>
+      <th>経度(日本)</th>
+      <th>緯度(日本)</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shops.each do |shop| %>
+      <tr>
+        <td><%= shop.owner_cd %></td>
+        <td><%= shop.owner_nm %></td>
+        <td><%= shop.yubin %></td>
+        <td><%= shop.owner_addr1 %></td>
+        <td><%= shop.owner_addr2 %></td>
+        <td><%= shop.tel %></td>
+        <td><%= shop.phone_no %></td>
+        <td><%= shop.fax %></td>
+        <td><%= shop.shop_memo %></td>
+        <td><%= shop.main_img %></td>
+        <td><%= shop.detail_img_1 %></td>
+        <td><%= shop.detail_img_2 %></td>
+        <td><%= shop.detail_img_3 %></td>
+        <td><%= shop.detail_img_4 %></td>
+        <td><%= shop.detail_text_1 %></td>
+        <td><%= shop.detail_text_2 %></td>
+        <td><%= shop.detail_text_3 %></td>
+        <td><%= shop.detail_text_4 %></td>
+        <td><%= shop.shop_b_hour %></td>
+        <td><%= shop.shop_reg_hol %></td>
+        <td><%= shop.geo %></td>
+        <td><%= shop.geo %></td>
+        <td><%= shop.ido %></td>
+        <td><%= shop.keido %></td>
+        <td><%= link_to 'Show', "/shops/#{shop.owner_cd}" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

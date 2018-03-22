@@ -1,0 +1,16 @@
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/Users/peachkichi/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180312-96367-ez9t2r.rb extconf.rb
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Zaikos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stock</th>
+      <th>Goocar</th>
+      <th>Owner cd</th>
+      <th>N p country nm n</th>
+      <th>N country cd</th>
+      <th>Brand nm</th>
+      <th>N maker cd</th>
+      <th>N p brand nm n</th>
+      <th>N brand cd</th>
+      <th>N p car nm n</th>
+      <th>N car cd</th>
+      <th>N p grade nm n</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @zaikos.each do |zaiko| %>
+      <tr>
+        <td><%= zaiko.stock_id %></td>
+        <td><%= zaiko.goocar_id %></td>
+        <td><%= zaiko.owner_cd %></td>
+        <td><%= zaiko.n_p_country_nm_n %></td>
+        <td><%= zaiko.n_country_cd %></td>
+        <td><%= zaiko.brand_nm %></td>
+        <td><%= zaiko.n_maker_cd %></td>
+        <td><%= zaiko.n_p_brand_nm_n %></td>
+        <td><%= zaiko.n_brand_cd %></td>
+        <td><%= zaiko.n_p_car_nm_n %></td>
+        <td><%= zaiko.n_car_cd %></td>
+        <td><%= zaiko.n_p_grade_nm_n %></td>
+        <td><%= link_to 'Show', "/zaikos/#{zaiko.stock_id}" %></td>
+  </tr>
+    <% end %>
+  </tbody>
+</table>

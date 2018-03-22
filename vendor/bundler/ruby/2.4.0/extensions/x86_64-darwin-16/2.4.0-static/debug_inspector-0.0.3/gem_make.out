@@ -1,0 +1,15 @@
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/peachkichi/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180312-96367-1qod9oh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20180312-96367-5h3wkx

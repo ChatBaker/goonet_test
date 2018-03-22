@@ -1,0 +1,13 @@
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/json-1.8.6/ext/json
+/Users/peachkichi/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20180312-96367-ljnc65.rb extconf.rb
+creating Makefile
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/peachkichi/works/goonet_test/vendor/bundler/ruby/2.4.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

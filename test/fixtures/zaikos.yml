@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stock_id: MyString
+  goocar_id: MyString
+  owner_cd: MyString
+  n_p_country_nm_n: MyString
+  n_country_cd: 
+  brand_nm: MyString
+  n_maker_cd: 
+  n_p_brand_nm_n: MyString
+  n_brand_cd: 
+  n_p_car_nm_n: MyString
+  n_car_cd: 
+  n_p_grade_nm_n: MyString
+
+two:
+  stock_id: MyString
+  goocar_id: MyString
+  owner_cd: MyString
+  n_p_country_nm_n: MyString
+  n_country_cd: 
+  brand_nm: MyString
+  n_maker_cd: 
+  n_p_brand_nm_n: MyString
+  n_brand_cd: 
+  n_p_car_nm_n: MyString
+  n_car_cd: 
+  n_p_grade_nm_n: MyString

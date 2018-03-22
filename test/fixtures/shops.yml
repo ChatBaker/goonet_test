@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner_cd: MyString
+  owner_nm: MyString
+  yubin: MyString
+  owner_addr1: MyString
+  owner_addr2: MyString
+  tel: MyString
+  phone_no: MyString
+  fax: MyString
+  shop_memo: MyString
+  main_img: MyString
+  detail_img_1: MyString
+  detail_img_2: MyString
+  detail_img_3: MyString
+  detail_img_4: MyString
+  detail_text_1: MyString
+  detail_text_2: MyString
+  detail_text_3: MyString
+  detail_text_4: MyString
+  shop_b_hour: MyString
+  shop_reg_hol: MyString
+  geo: MyString
+  geo: MyString
+  ido: MyString
+  keido: MyString
+
+two:
+  owner_cd: MyString
+  owner_nm: MyString
+  yubin: MyString
+  owner_addr1: MyString
+  owner_addr2: MyString
+  tel: MyString
+  phone_no: MyString
+  fax: MyString
+  shop_memo: MyString
+  main_img: MyString
+  detail_img_1: MyString
+  detail_img_2: MyString
+  detail_img_3: MyString
+  detail_img_4: MyString
+  detail_text_1: MyString
+  detail_text_2: MyString
+  detail_text_3: MyString
+  detail_text_4: MyString
+  shop_b_hour: MyString
+  shop_reg_hol: MyString
+  geo: MyString
+  geo: MyString
+  ido: MyString
+  keido: MyString
